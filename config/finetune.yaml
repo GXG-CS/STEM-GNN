@@ -1,0 +1,59 @@
+node:
+  cora:
+    finetune_dataset: cora
+    normalize: none
+    finetune_epochs: 1000
+    early_stop: 200
+    batch_size: 0
+    finetune_lr: 0.0005
+  pubmed:
+    finetune_dataset: pubmed
+    normalize: none
+    finetune_epochs: 1000
+    early_stop: 200
+    batch_size: 0
+    finetune_lr: 0.005
+  arxiv:
+    finetune_dataset: arxiv
+    normalize: none
+    finetune_epochs: 1000
+    early_stop: 200
+    batch_size: 0
+    finetune_lr: 0.0005
+  wikics:
+    finetune_dataset: wikics
+    normalize: none
+    finetune_epochs: 2000
+    early_stop: 500
+    batch_size: 0
+    finetune_lr: 0.0001
+link:
+  WN18RR:
+    finetune_dataset: WN18RR
+    normalize: batch
+    finetune_epochs: 1000
+    early_stop: 200
+    batch_size: 0
+    finetune_lr: 0.001
+  FB15K237:
+    finetune_dataset: FB15K237
+    normalize: batch
+    finetune_epochs: 3000
+    early_stop: 200
+    batch_size: 1024
+    finetune_lr: 0.0005
+graph:
+  chemhiv:
+    finetune_dataset: chemhiv
+    normalize: batch
+    finetune_epochs: 100
+    early_stop: 20
+    batch_size: 1024
+    finetune_lr: 0.0003
+  chempcba:
+    finetune_dataset: chempcba
+    normalize: batch
+    finetune_epochs: 50
+    early_stop: 10
+    batch_size: 1024
+    finetune_lr: 0.001

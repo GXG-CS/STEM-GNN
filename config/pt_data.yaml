@@ -1,0 +1,156 @@
+all:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+node:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+
+link:
+  WN18RR: 5
+  FB15K237: 10
+
+graph:
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+citation:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+
+cora:
+  cora: 5
+
+pubmed:
+  pubmed: 5
+
+arxiv:
+  arxiv: 5
+
+wikics:
+  wikics: 5
+
+WN18RR:
+  WN18RR: 5
+
+FB15K237:
+  FB15K237: 10
+
+chemhiv:
+  chemhiv: 1
+
+chemblpre:
+  chemblpre: 0.1
+
+chempcba:
+  chempcba: 0.1
+
+wo_cora:
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+wo_pubmed:
+  cora: 5
+  arxiv: 5
+  wikics: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+wo_arxiv:
+  cora: 5
+  pubmed: 5
+  wikics: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+wo_wikics:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+wo_WN18RR:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+  FB15K237: 10
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+wo_FB15K237:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+  WN18RR: 5
+  chemhiv: 1
+  chemblpre: 0.1
+  chempcba: 0.1
+
+wo_chemhiv:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemblpre: 0.1
+  chempcba: 0.1
+
+wo_chemblpre:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemhiv: 1
+  chempcba: 0.1
+
+wo_chempcba:
+  cora: 5
+  pubmed: 5
+  arxiv: 5
+  wikics: 5
+  WN18RR: 5
+  FB15K237: 10
+  chemhiv: 1
+  chemblpre: 0.1
+
+arxiv_FB15K237:
+  arxiv: 5
+  FB15K237: 10
+
+arxiv_FB15K237_chemblpre:
+  arxiv: 5
+  FB15K237: 10
+  chemblpre: 0.1
