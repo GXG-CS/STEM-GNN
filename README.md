@@ -3,7 +3,7 @@
 This repository contains pretraining and finetuning scripts for STEM-GNN, plus multiple evaluation scripts.
 
 **Quick Start**
-1. Go to the repo root (`/home/mca25001/STEM-GNN`).
+1. Go to the repo root (`STEM-GNN`).
 2. Create and activate the environment.
 
 ```bash
